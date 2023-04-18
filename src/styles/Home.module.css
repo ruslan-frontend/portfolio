@@ -1,0 +1,25 @@
+.layout {
+    position: relative;
+}
+
+.background {
+    background: #B0C4DE;
+    width: 243px;
+    height: 243px;
+}
+
+.avatar {
+    width: 243px;
+    height: 243px; 
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 506px;
+    width: 100%;
+}

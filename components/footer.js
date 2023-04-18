@@ -3,23 +3,32 @@ import { BsTelegram } from 'react-icons/bs'
 import twitter from '../public/images/twitter.svg'
 import instagram from '../public/images/instagram.svg'
 import linkedin from '../public/images/linkedin.svg'
+import styles from '../src/styles/Footer.module.css'
 
 const Footer = () => {
     return (
-        <footer>
-            <div>
-                <BsTelegram/>
-                <Image
-                    src={twitter} 
+        <footer className={styles.footer}>
+            <div className={styles.icons}>
+                <BsTelegram 
+                    className={styles.img}
+                />
+                <Image 
+                    className={styles.img}
+                    src={twitter}
+                    alt='twitter'
                 />
                 <Image
-                    src={instagram} 
+                    className={styles.img}
+                    src={instagram}
+                    alt='instagram'
                 />
                 <Image
+                    className={styles.img}
                     src={linkedin} 
+                    alt='linkedin'
                 />
             </div>
-            <p>Copyright ©2023 All rights reserved</p>
+            <p className={styles.rights}>Copyright ©2023 All rights reserved</p>
         </footer>
     )
 }

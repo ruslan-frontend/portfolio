@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: end;
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+    margin-top: 27px;
+
+}
+
+.link {
+    color: black;
+    font-size: 20px;
+}
+
+.link:focus {
+    color: #FF6464;
+}
