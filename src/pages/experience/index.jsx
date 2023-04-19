@@ -1,3 +1,4 @@
+import Head from "next/head";
 import ProjectCard from "../../../components/project-card";
 import first from '../../../public/images/projects/1.svg'
 import second from '../../../public/images/projects/2.svg'
@@ -8,6 +9,9 @@ import fourth from '../../../public/images/projects/4.svg'
 const Experience = () => {
     return (
         <div>
+            <Head>
+			    <title>Portfolio | Work</title>
+		    </Head>
             <div>
                 <h2 className='subtitle'>Work</h2>
                 <ProjectCard 
