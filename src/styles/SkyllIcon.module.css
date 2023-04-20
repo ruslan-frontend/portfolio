@@ -16,6 +16,7 @@
     align-items: center;
     gap: 10px;
     transition: transform 0.2s ease-in-out;
+    justify-content: center;
 }
 
 .layout:hover {

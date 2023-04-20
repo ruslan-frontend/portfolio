@@ -7,6 +7,7 @@ import git from '../public/images/skills/git.svg'
 import nextjs from '../public/images/skills/nextjs.svg'
 import figma from '../public/images/skills/figma.svg'
 import ts from '../public/images/skills/ts.svg'
+import redux from '../public/images/skills/redux.svg'
 import SkillIcon from './skill-icon'
 import styles from '../src/styles/Technologies.module.css'
 
@@ -51,6 +52,10 @@ const Technologies = () => {
                     <SkillIcon
                         image={ts}
                         name={'TS'}
+                    />
+                    <SkillIcon
+                        image={redux}
+                        name={'Redux'}
                     />
                 </div>
             <div className='line'></div>
