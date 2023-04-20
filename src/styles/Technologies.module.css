@@ -1,20 +1,16 @@
-/* .layout {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    justify-content: space-around;
-    padding: 27px 0;
-    flex-wrap: wrap;
-} */
-
 .layout {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(2, minmax(0, 1fr));
-    gap: 35px;
+    gap: 20px;
     padding: 27px 0;
 }
 
   .layout > * {
     grid-row: auto / span 1;
+}
+
+@media screen and (max-width: 390px) {
+    .layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

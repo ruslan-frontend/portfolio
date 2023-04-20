@@ -1,7 +1,8 @@
 .header {
     display: flex;
     justify-content: flex-end;
-    width: 1152px;
+    max-width: 1152px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -22,3 +23,24 @@
     color: #FF6464;
 }
 
+.burger_button {
+    display: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 390px) {
+
+    .burger_button {
+        display: block;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .nav {
+        display: none;
+    }
+}

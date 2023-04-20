@@ -1,18 +1,19 @@
 const { default: Image } = require("next/image")
+import styles from '../src/styles/Card.module.css'
 
 const ProjectCard = ({ image, title, year, type, description }) => {
     return (
-        <div className='project-card'>
+        <div className={styles.card}>
                 <Image 
-                    className='project-image'
+                    className={styles.image}
                     alt='first'
                     src={image}
                 />
-                <div className='project-description'>
-                    <h4 className='project-title'>{title}</h4>
-                    <div className='project-date'>
-                        <div className='project-year'>{year}</div>
-                        <span className='project-type'>{type}</span>
+                <div className={styles.description}>
+                    <h4 className={styles.title}>{title}</h4>
+                    <div className={styles.date}>
+                        <div className={styles.year}>{year}</div>
+                        <span className={styles.type}>{type}</span>
                     </div>
                     <p>{description}</p>
                 </div>

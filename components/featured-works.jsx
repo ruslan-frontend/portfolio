@@ -6,7 +6,7 @@ import ProjectCard from './project-card';
 const FeaturedWorks = () => {
     return (
         <div>
-            <h3 className='blockTitle'>Featured Works</h3>
+            <h3 className='block_title'>Featured Works</h3>
             <ProjectCard 
                     image={first}
                     title={'Digital Health Innovations'}

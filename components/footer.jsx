@@ -11,27 +11,27 @@ const Footer = () => {
             <div className={styles.icons}>
                 <a href="https://t.me/ruslan_frontend">
                     <BsTelegram 
-                        className='icon_footer'
+                        className={styles.icon}
                     />
                 </a>
                 
                 <a href="https://twitter.com/ruslan_frontend">
                     <Image 
-                        className='icon_footer'
+                        className={styles.icon}
                         src={twitter}
                         alt='twitter'
                     />
                 </a>
                 <a href="https://www.instagram.com/ruslan_frontend/">
                     <Image
-                        className='icon_footer'
+                        className={styles.icon}
                         src={instagram}
                         alt='instagram'
                     />
                 </a>
                 <a href="https://www.linkedin.com/in/bulatov-ruslan/">
                     <Image
-                        className='icon_footer'
+                        className={styles.icon}
                         src={linkedin} 
                         alt='linkedin'
                     />

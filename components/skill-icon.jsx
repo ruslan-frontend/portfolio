@@ -1,5 +1,5 @@
 const { default: Image } = require("next/image")
-import styles from '../src/styles/SkyllIcon.module.css'
+import styles from '../src/styles/SkillIcon.module.css'
 
 const SkillIcon = ({ image, name }) => {
     return (

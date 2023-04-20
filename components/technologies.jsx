@@ -15,7 +15,7 @@ import styles from '../src/styles/Technologies.module.css'
 const Technologies = () => {
     return (
         <div>
-            <h3 className='blockTitle'>Skills</h3>
+            <h3 className='block_title'>Skills</h3>
                 <div className={styles.layout}>
                     <SkillIcon
                         image={html}
@@ -60,7 +60,6 @@ const Technologies = () => {
                 </div>
             <div className='line'></div>
         </div>
-        
     )
 }
 

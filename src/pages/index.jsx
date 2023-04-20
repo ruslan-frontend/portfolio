@@ -23,20 +23,20 @@ export default function Home() {
 		<Head>
 			<title>Portfolio | Home</title>
 		</Head>
-			<div className='home'>
+			<div className={styles.home}>
 				<div className={styles.about}>
-					<h1>Hi, I am Ruslan, <br/> 
+					<h1 className={styles.title}>Hi, I am Ruslan, <br/> 
 					<Typewriter
 						onInit={(typewriter)=> { typewriter
 						.typeString("Frontend Developer")
 						.pauseFor(500)
 						.deleteAll()
-						.typeString("Фронтенд Разработчик")
+						.typeString("UI/UX Designer")
 						.start();
 						}}
 					/> </h1>
-					<p>As a frontend developer, I am passionate about creating functional, efficient, and visually appealing user interfaces. With expertise in various technologies and tools, I stay up-to-date with the latest industry trends and best practices. My goal is to deliver high-quality work that exceeds expectations and provides real value to clients and end-users alike.</p>
-					<button onClick={handleClick}>Download Resume</button>
+					<p className={styles.description}>As a frontend developer, I am passionate about creating functional, efficient, and visually appealing user interfaces. With expertise in various technologies and tools, I stay up-to-date with the latest industry trends and best practices. My goal is to deliver high-quality work that exceeds expectations and provides real value to clients and end-users alike.</p>
+					<button onClick={handleClick} className={styles.button}>Download Resume</button>
 				</div>
 				<div className={styles.layout}>
 					<div className={styles.background}>

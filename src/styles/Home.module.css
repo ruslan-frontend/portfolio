@@ -1,3 +1,22 @@
+.home {
+    display: flex;
+    padding: 110px 0 70px 0px;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 526px;
+    width: 100%;
+}
+
+.title {
+    font-size: 44px;
+}
+
+
 .layout {
     position: relative;
 }
@@ -16,10 +35,40 @@
     left: 10px;
 }
 
-.about {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    max-width: 526px;
-    width: 100%;
+.button {
+    width: 208px;
+    height: 47px;
+    background: #1E90FF;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #3CB371;
+}
+
+@media screen and (max-width: 390px) {
+    .home {
+        padding: 33px 0 33px 0;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 33px;
+    }
+
+    .title {
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .description {
+        text-align: center;
+    }
+
+    .about {
+        align-items: center;
+    }
 }

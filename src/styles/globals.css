@@ -20,40 +20,30 @@ body {
     height: 100vh;
 }
 
-h1 {
-    font-size: 44px;
+.content {
+    max-width: 1152px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 27px;
 }
 
-button {
-    width: 208px;
-    height: 47px;
-    background: #1E90FF;
-    border-radius: 2px;
-    border: none;
-    color: white;
-    font-size: 20px;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 400;
-    cursor: pointer;
-}
-
-/* H2 title */
-
-.blockTitle {
-    font-weight: 400;
-    font-size: 22px;
-    color: #21243D;
-    padding: 27px 0 0 27px;
-}
+/* Titles */
 
 .subtitle {
     font-weight: 900;
     font-size: 44px;
     color: #21243D;
-    padding: 90px 27px 0 27px;
+    padding-top: 90px;
 }
 
-/* separator line */
+.block_title {
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243D;
+    padding-top: 27px;
+}
+
+/* separator lines */
 .line_small {
     border: 1px solid #E0E0E0;
     margin: 0 auto;
@@ -66,73 +56,15 @@ button {
     width: 1100px;
 }
 
-.icon_footer {
-    width: 30px;
-    height: 30px;
-    color: #21243D;
-}
-
-.content {
-    width: 1152px;
-    margin: 0 auto;
-}
-
-.home {
-    display: flex;
-    padding: 140px 0 70px 0;
-    justify-content: space-between;
-}
-
 /* features-works styles */
 
-.featured-works {
-    padding: 27px;
-}
+@media screen and (max-width: 390px) {
 
-.project-card {
-    display: flex;
-    padding: 27px;
-    gap: 18px;
-}
+    body::-webkit-scrollbar {
+        display: none;
+    }
 
-.project-image {
-    width: 246px;  
-    height: 180px;
-}
-
-.project-title {
-    font-weight: 700;
-    font-size: 30px;
-    color: #21243D;
-}
-
-.project-description {
-    display: flex;
-    flex-direction: column;
-    gap: 17px;
-}
-
-.project-description p {
-    color: #21243D;
-}
-
-.project-date {
-    display: flex;
-    gap: 36px;
-    align-items: center;
-}
-
-.project-year {
-    width: 62px;
-    height: 25px;
-    background: #142850;
-    border-radius: 16px;
-    color: white;
-    text-overflow: ellipsis;
-    padding: 1px 14px;
-}
-
-.project-type {
-    font-size: 20px;
-    color: #8695A4;
+    .subtitle {
+        padding-top: 7px;
+    }
 }
