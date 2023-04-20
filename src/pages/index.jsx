@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import avatar from '../../public/images/avatar.jpg'
 import styles from '../styles/Home.module.css'
-import Technologies from '../../components/technologies'
+import Technologies from '../../components/skills'
 import FeaturedWorks from '../../components/featured-works'
 import Head from 'next/head'
 import Typewriter from "typewriter-effect";
@@ -31,7 +31,7 @@ export default function Home() {
 						.typeString("Frontend Developer")
 						.pauseFor(500)
 						.deleteAll()
-						.typeString("UI/UX Designer")
+						.typeString("Frontend Engineer")
 						.start();
 						}}
 					/> </h1>

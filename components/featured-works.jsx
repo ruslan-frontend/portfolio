@@ -1,7 +1,7 @@
 import first from '../public/images/projects/1.svg'
 import second from '../public/images/projects/2.svg'
 import third from '../public/images/projects/3.svg'
-import ProjectCard from './project-card';
+import ProjectCard from './card';
 
 const FeaturedWorks = () => {
     return (

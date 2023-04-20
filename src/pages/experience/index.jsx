@@ -1,5 +1,5 @@
 import Head from "next/head";
-import ProjectCard from "../../../components/project-card";
+import ProjectCard from "../../../components/card";
 import first from '../../../public/images/projects/1.svg'
 import second from '../../../public/images/projects/2.svg'
 import third from '../../../public/images/projects/3.svg'

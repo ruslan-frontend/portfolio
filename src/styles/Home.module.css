@@ -23,13 +23,13 @@
 
 .background {
     background: #B0C4DE;
-    width: 243px;
-    height: 243px;
+    width: 290px;
+    height: 290px;
 }
 
 .avatar {
-    width: 243px;
-    height: 243px; 
+    width: 290px;
+    height: 290px; 
     position: absolute;
     top: -10px;
     left: 10px;
