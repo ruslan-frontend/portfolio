@@ -30,7 +30,7 @@ const ProjectCard = ({ image, title, year, type, description }) => {
     }, [closeModal]);
 
     return (
-        <div className={`${isModalOpen ? `${styles.modal_open}` : `${styles.card}`}`} onClick={handleCardClick}>
+        <div className={styles.card} onClick={handleCardClick}>
             <Image 
                 className={styles.image}
                 alt='first'

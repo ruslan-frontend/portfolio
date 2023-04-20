@@ -9,10 +9,10 @@ import figma from '../public/images/skills/figma.svg'
 import ts from '../public/images/skills/ts.svg'
 import redux from '../public/images/skills/redux.svg'
 import SkillIcon from './skill-icon'
-import styles from '../src/styles/Technologies.module.css'
+import styles from '../src/styles/Skills.module.css'
 
 
-const Technologies = () => {
+const Skills = () => {
     return (
         <div>
             <h3 className='block_title'>Skills</h3>
@@ -63,4 +63,4 @@ const Technologies = () => {
     )
 }
 
-export default Technologies;
+export default Skills;
