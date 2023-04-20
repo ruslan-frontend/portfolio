@@ -1,24 +1,27 @@
 import Link from "next/link";
 import styles from '../src/styles/Header.module.css'
-import burger from '../public/images/menu.svg'
-import Image from "next/image";
 
 const Header = () => {
     
     return (
-        <header className={styles.header}>
-            <button className={styles.burger_button}>
-                <Image
-                    alt='menu'
-                    src={burger}
-                />
-            </button>
-            <nav className={styles.nav}>
-                <Link className={styles.link} href='/'>Home</Link>
-                <Link className={styles.link} href='/experience'>Experience</Link>
-                <Link className={styles.link} href='/contacts'>Contacts</Link>
-            </nav>
+        <header className={styles.content}>
+            <nav className={styles.navbar}>
+                <div className={`${styles.navbar_container} ${styles.container}`}>
+                    <input type="checkbox" name="" id="" />
+                    <div className={styles.hamburger_lines}>
+                        <span className={`${styles.line} ${styles.line1}`}></span>
+                        <span className={`${styles.line} ${styles.line2}`}></span>
+                        <span className={`${styles.line} ${styles.line3}`}></span>
+                </div>
+                <ul className={styles.menu_items}>
+                    <li><Link className={styles.link} href='/'>Home</Link></li>
+                    <li><Link className={styles.link} href='/experience'>Experience</Link></li>
+                    <li><Link className={styles.link} href='/contacts'>Contacts</Link></li>
+                </ul>
+            </div>
+        </nav>
         </header>
+        
     )    
 }
 

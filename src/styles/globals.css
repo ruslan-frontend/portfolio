@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    /* border: 1px solid yellowgreen; */
 }
 
 html,
@@ -25,6 +24,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 27px;
+    position: relative;
 }
 
 .overlay {
@@ -66,8 +66,6 @@ body {
     width: 1100px;
 }
 
-/* features-works styles */
-
 @media screen and (max-width: 390px) {
 
     body::-webkit-scrollbar {
@@ -75,6 +73,6 @@ body {
     }
 
     .subtitle {
-        padding-top: 7px;
+        text-align: center;
     }
 }
